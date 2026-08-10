@@ -9,7 +9,7 @@ module.exports = [
     { title: '⚔️ ROYAL MODERATION', names: ['ban', 'unban', 'banlist', 'warn', 'unwarn', 'warnings', 'resetwarn', 'sudo', 'delsudo', 'listsudo'] },
     { title: '🛡️ ROYAL SECURITY', names: ['welcome', 'goodbye', 'setwelcome', 'setgoodbye', 'antilink', 'antispam', 'antifake', 'antibot', 'antitag', 'autoread', 'autoreact', 'anticall', 'anticallmsg', 'autotyping', 'recording', 'statusview', 'adminaction'] },
     { title: '🧠 ROYAL AI', names: ['ai', 'translate', 'summarize', 'rewrite', 'explain', 'code', 'bugfix', 'imagine'] },
-    { title: '🔮 ROYAL TOOLS', names: ['removebg', 'upscale', 'enhance', 'unblur', 'colorize', 'caption', 'getimage', 'getpp', 'convert', 'id', 'vv'] },
+    { title: '🔮 ROYAL TOOLS', names: ['removebg', 'upscale', 'enhance', 'unblur', 'colorize', 'caption', 'getimage', 'getpp', 'convert', 'id'] },
     { title: '🎭 ROYAL FUN', names: ['blague', 'quiz', 'roast', 'ship', 'compatibility', 'aura', '8ball', 'compliment', 'emoji', 'character', 'anime'] },
     { title: '🌌 ROYAL OTHER', names: ['wthr', 'praytime', 'time', 'quote', 'joke'] },
 ];
