@@ -19,7 +19,7 @@ module.exports = {
             return sock.sendMessage(from, { text: '❌ Aucune session trouvée pour ce numéro.' }, { quoted: m });
         }
 
-        const ownerJid = senderJid; // toujours envoyé en privé au owner, jamais dans le groupe
+        const ownerJid = senderJid;
         await sock.sendMessage(ownerJid, {
             text: `🔑 *SESSION_ID* (à copier tel quel)\n\nSur Render → Settings → Environment, ajoute ces DEUX variables :\n\nSESSION_ID=${sessionId}\n\nSESSION_NUMBER=${number}\n\n⚠️ Ne partage JAMAIS cette chaîne — elle donne un accès complet à ce compte WhatsApp.`,
         });
