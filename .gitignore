@@ -1,50 +1,114 @@
-# Node.js
+# ========================================
+# Node.js & npm
+# ========================================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
+pnpm-error.log*
+lerna-debug.log*
 
-# Runtime data
+# npm cache
+.npm
+.npmrc
+
+# Optional npm package-lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========================================
+# Environment & Secrets
+# ========================================
+.env
+.env.local
+.env.*.local
+.env*.production
+config.json
+credentials.json
+secrets/
+
+# ========================================
+# Build & Distribution
+# ========================================
+dist/
+build/
+out/
+lib/
+*.tsbuildinfo
+
+# ========================================
+# Runtime & Logs
+# ========================================
 pids/
 *.pid
 *.seed
 *.pid.lock
-
-# Coverage and test outputs
-coverage/
-.nyc_output/
-
-# Build outputs
-dist/
-build/
-
-# dotenv files (local secrets)
-.env
-.env.local
-.env.*.local
-
-# Optional npm cache
-.npm
-.npmrc
-
-# Logs
 logs/
 *.log
 
-# Debug
-*.tgz
+# ========================================
+# Testing & Coverage
+# ========================================
+coverage/
+.nyc_output/
+.mocha
+.jest
 
-# Editor directories and files
+# ========================================
+# IDE & Editor
+# ========================================
 .vscode/
 .idea/
+.DS_Store
+*.swp
+*.swo
+*~
 *.sublime-workspace
 *.sublime-project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Misc
+# ========================================
+# Temporary Files
+# ========================================
 .cache/
-*.swp
-*.tsbuildinfo
+*.tgz
+.turbo/
+dist-ssr/
+.env.test.local
+
+# ========================================
+# OS Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Bot-specific
+# ========================================
+session/
+sessions/
+*.session
+auth_info_multi.json
+database.db
+*.db
+temp/
+cache/
+
+# ========================================
+# IDE specific
+# ========================================
+.editorconfig
+.eslintcache
+*.code-workspace
